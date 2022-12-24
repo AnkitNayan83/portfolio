@@ -1,0 +1,35 @@
+@import "../../global.scss";
+
+.top {
+  box-shadow: 0 10px 11px black;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 1s ease;
+  background-color: lightblue;
+
+  margin: 20px;
+  .course {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: 214px;
+    }
+
+    span {
+      font-size: 20px;
+      font-weight: 700;
+      color: black;
+    }
+  }
+
+  &:hover {
+    scale: 1.1;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../global.scss";
+
+.menu {
+  width: 200px;
+  height: calc(100vh - 70px);
+  background-color: transparent;
+  position: fixed;
+  top: 70px;
+  right: -150px;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  transition: all 1s ease;
+
+  @include mobile {
+    right: -200px;
+  }
+
+  &.active {
+    right: 0;
+    @include mobile {
+      right: -50px;
+    }
+    transition: all 1s ease;
+    background-color: $mainColor;
+    align-items: center;
+    ul > li > a {
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 5px 15px;
+      @include mobile {
+        font-size: 15px;
+        margin-right: 40px;
+      }
+    }
+    ul > li > a:hover {
+      background-color: white;
+      color: $mainColor;
+    }
+  }
+
+  ul {
+    height: 100%;
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul > li > a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: white;
+    }
+
+    &.selected {
+      color: white;
+      background-color: $mainColor;
+      border-radius: 10px;
+    }
+  }
+}

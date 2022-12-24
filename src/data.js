@@ -1,0 +1,105 @@
+export const data = [
+  {
+    id: 1,
+    title: "Shopping App",
+    img: "/assets/ShoppingApp/SH.png",
+    class: "web",
+    url: "https://github.com/AnkitNayan83/Shopping-App-FrontEnd",
+  },
+  {
+    id: 2,
+    title: "Netflix App",
+    img: "/assets/NetflixApp/N.png",
+    class: "web",
+    url: "https://github.com/AnkitNayan83/Fullstack-mern-netflix-app",
+  },
+  {
+    id: 3,
+    title: "Amazon App",
+    img: "/assets/AmazonApp/A1.png",
+    class: "web",
+    url: "https://github.com/AnkitNayan83/amazon-clone",
+  },
+  {
+    id: 4,
+    title: "Food App",
+    img: "/assets/FoodApp/F.png",
+    class: "web",
+    url: "https://github.com/AnkitNayan83/foodzzzz",
+  },
+  {
+    id: 5,
+    title: "NFT Marketplace",
+    img: "/assets/NFT-App/NFT.png",
+    class: "nft",
+    url: "https://github.com/AnkitNayan83/nextjs-nft-marketplace",
+  },
+  {
+    id: 6,
+    title: "NFT Minting",
+    img: "/assets/NFT-App/NFT2.png",
+    class: "nft",
+    url: "https://github.com/AnkitNayan83/hardhat-nft-minting",
+  },
+  {
+    id: 7,
+    title: "DEFI App",
+    img: "/assets/Defi/De.png",
+    class: "defi",
+    url: "https://github.com/AnkitNayan83/hardhat-defi-Crypto-bank",
+  },
+  {
+    id: 8,
+    title: "DAO's",
+    img: "/assets/Dao/D.jpg",
+    class: "dao",
+    url: "https://github.com/AnkitNayan83/hardhat-dao-s",
+  },
+  {
+    id: 9,
+    title: "Lottery Smart Contract",
+    img: "/assets/ETH.png",
+    class: "smart",
+    url: "https://github.com/AnkitNayan83/Lottery-SmartContract",
+  },
+  {
+    id: 10,
+    title: "Crypto Fund Contract",
+    img: "/assets/ETH.png",
+    class: "smart",
+    url: "https://github.com/AnkitNayan83/hardhat-CryptoFund",
+  },
+];
+
+export const courses = [
+  {
+    id: 1,
+    url: "/assets/courses/web.jpg",
+    caption: "Full Stack Web Development",
+    link: "https://www.udemy.com/share/101W9C3@Zgt2SCBvvEOTBoPmKM96K6TRrAUVWQwOWaZ2CSgOfzvzKu7LtR36gWsjYkjc0eXU9A==/",
+  },
+  {
+    id: 2,
+    url: "/assets/courses/dsa.png",
+    caption: "Data Structure BootCamp",
+    link: "https://auth.geeksforgeeks.org/user/ankitnayan83/practice/",
+  },
+  {
+    id: 3,
+    url: "/assets/courses/cpp.png",
+    caption: "CPP Programing",
+    link: "https://auth.geeksforgeeks.org/user/ankitnayan83/practice/",
+  },
+  {
+    id: 4,
+    url: "/assets/courses/bc.jpg",
+    caption: "Blockchain",
+    link: "https://www.youtube.com/watch?v=gyMwXuJrbJQ&ab_channel=freeCodeCamp.org",
+  },
+  {
+    id: 5,
+    url: "/assets/courses/react.png",
+    caption: "React Course",
+    link: "https://codedamn.com/learn/reactjs",
+  },
+];
