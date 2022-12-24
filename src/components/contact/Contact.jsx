@@ -34,9 +34,14 @@ export const Contact = () => {
       <div className="right">
         <h2>Contact.</h2>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" placeholder="Your Name" name="user_name" />
-          <input type="text" placeholder="Email" name="user_email" />
-          <textarea placeholder="Message" name="message"></textarea>
+          <input
+            type="text"
+            placeholder="Your Name"
+            name="user_name"
+            required
+          />
+          <input type="text" placeholder="Email" name="user_email" required />
+          <textarea placeholder="Message" name="message" required></textarea>
           <button type="submit">Send</button>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>

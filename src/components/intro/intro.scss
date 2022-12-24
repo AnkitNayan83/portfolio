@@ -3,7 +3,6 @@
 .intro {
   background-color: transparent;
   display: flex;
-
   @include mobile {
     flex-direction: column;
   }

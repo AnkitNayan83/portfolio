@@ -3,11 +3,11 @@
 .menu {
   width: 200px;
   height: calc(100vh - 70px);
-  background-color: transparent;
+  background-color: #3586ff;
   position: fixed;
   top: 70px;
   right: -150px;
-  z-index: 1001;
+  z-index: 1002;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -59,11 +59,11 @@
   ul > li > a {
     text-decoration: none;
     padding: 5px;
-    color: black;
+    color: white;
     border-radius: 50%;
 
     &:hover {
-      background-color: white;
+      background-color: black;
     }
 
     &.selected {
