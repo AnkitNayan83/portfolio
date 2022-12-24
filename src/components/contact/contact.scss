@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .contact {
-  z-index: 999;
   background-image: none;
   background-color: white;
   display: flex;
@@ -20,6 +19,7 @@
     }
   }
   .right {
+    z-index: 1001;
     flex: 1;
     display: flex;
     flex-direction: column;

@@ -24,7 +24,7 @@
 
     h1 {
       font-size: 50px;
-      margin: 25px 0;
+      margin: 20px 0;
       font-weight: 700;
       overflow: hidden;
       @include mobile {
@@ -36,7 +36,7 @@
 
     .desc {
       font-weight: 600;
-      font-size: 22px;
+      font-size: 20px;
       margin: 0 10px;
 
       @include mobile {
