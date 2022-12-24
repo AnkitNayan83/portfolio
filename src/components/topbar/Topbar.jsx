@@ -18,21 +18,31 @@ export const Topbar = ({ open, setOpen }) => {
         </div>
         <div className="right">
           <div className="quick">
-            <a href="https://github.com/AnkitNayan83" target="_blank">
+            <a
+              href="https://github.com/AnkitNayan83"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GitHub className="iconR" />
             </a>
             <a
               href="https://www.linkedin.com/in/ankit-nayan-816337221/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <LinkedIn className="iconR" />
             </a>
-            <a href="https://leetcode.com/ankitnayan83/" target="_blank">
+            <a
+              href="https://leetcode.com/ankitnayan83/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/assets/leetcode.png" alt="" />
             </a>
             <a
               href="https://auth.geeksforgeeks.org/user/ankitnayan83/practice"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src="/assets/gfg.png" alt="" />
             </a>

@@ -47,14 +47,19 @@ export const Portfolio = () => {
         {data.map((item, i) => {
           if (item.class === active) {
             return (
-              <a href={item.url} target="_blank">
-                <div className="item" key={i}>
-                  <img src={item.img} />
+              <a
+                href={item.url}
+                key={i}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="item">
+                  <img src={item.img} alt="" />
                   <h3>{item.title}</h3>
                 </div>
               </a>
             );
-          }
+          } else return null;
         })}
       </div>
     </div>
