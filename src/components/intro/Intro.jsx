@@ -21,7 +21,7 @@ export const Intro = () => {
                 strings: [
                   "MERN Developer",
                   "Problem Solver(DSA)",
-                  "Blockchain Delveloper",
+                  "Blockchain Developer",
                 ],
                 autoStart: true,
                 loop: true,
