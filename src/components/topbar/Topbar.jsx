@@ -1,4 +1,4 @@
-import { GitHub, LinkedIn, Mail, Person } from "@mui/icons-material";
+import { Article, GitHub, LinkedIn, Mail } from "@mui/icons-material";
 import "./topbar.scss";
 
 export const Topbar = ({ open, setOpen }) => {
@@ -10,10 +10,15 @@ export const Topbar = ({ open, setOpen }) => {
             positive.
           </a>
           <div className="iconContainer">
-            <Person className="icon" />
-            <span>7340069239</span>
             <Mail className="icon" />
             <span>ankitnayan83@gmail.com</span>
+            <a
+              href="https://drive.google.com/file/d/1b4IoxNDNCvV_AkReRGU0SxK3SuVVBOZ4/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </div>
         </div>
         <div className="right">
