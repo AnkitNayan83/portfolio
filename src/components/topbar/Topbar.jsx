@@ -1,4 +1,4 @@
-import { Article, GitHub, LinkedIn, Mail } from "@mui/icons-material";
+import { GitHub, LinkedIn, Mail } from "@mui/icons-material";
 import "./topbar.scss";
 
 export const Topbar = ({ open, setOpen }) => {
