@@ -5,6 +5,10 @@ import "./intro.scss";
 export const Intro = () => {
   return (
     <div className="intro" id="intro">
+      <div className="wave w1"></div>
+      <div className="wave w2"></div>
+      <div className="wave w3"></div>
+      <div className="wave w4"></div>
       <div className="left">
         <div className="imgContainer">
           <img src="assets/profile1.png" alt="" />

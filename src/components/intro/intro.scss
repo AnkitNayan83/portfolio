@@ -7,6 +7,77 @@
     flex-direction: column;
   }
 
+  .wave {
+    width: 100%;
+    height: 100px;
+    background-image: url("../../../public/assets/wave/wave.png");
+    background-position: bottom;
+    background-size: 1000px 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    &.w1 {
+      animation: animate 30s linear infinite;
+      z-index: 1000;
+      opacity: 1;
+      animation-delay: 0s;
+      bottom: 0;
+      @include mobile {
+        opacity: 0;
+      }
+    }
+    &.w2 {
+      animation: animate2 5s linear infinite;
+      opacity: 0.5;
+      animation-delay: -5s;
+      bottom: 10px;
+      z-index: 999;
+      @include mobile {
+        opacity: 0;
+      }
+    }
+    &.w3 {
+      animation: animate 30s linear infinite;
+      opacity: 0.2;
+      animation-delay: -2s;
+      bottom: 20px;
+      z-index: 998;
+      @include mobile {
+        opacity: 0;
+      }
+    }
+    &.w4 {
+      animation: animate2 5s linear infinite;
+      opacity: 0.7;
+      animation-delay: -1s;
+      bottom: 25px;
+      z-index: 997;
+      @include mobile {
+        opacity: 0;
+      }
+    }
+
+    @keyframes animate {
+      0% {
+        background-position-x: 0;
+      }
+
+      100% {
+        background-position-x: 1000px;
+      }
+    }
+    @keyframes animate2 {
+      0% {
+        background-position-x: 0;
+      }
+
+      100% {
+        background-position-x: -1000px;
+      }
+    }
+  }
+
   .left {
     margin-bottom: 80px;
     flex: 1;
